@@ -1,0 +1,39 @@
+$primary: #00caf3;
+$secondary:#f8f9fa;
+$theme-colors:(
+        "primary":$primary,
+        "secondary":$secondary
+);
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.star-img{
+  width:16%;
+}
+.lessons-picture{
+  width:100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+.lessons-description{
+  word-wrap: break-word;
+}
+.lesson{
+  width:20%;
+  margin: 0 2.5% 0 2.5%;
+}
+.page-picture{
+  max-height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+body{
+  background: lighten($primary,50);
+}
